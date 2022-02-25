@@ -24,7 +24,7 @@ const Login = () => {
       .catch(() => alert('Invalid user!'));
   };
 
-  return <Form titleLogin="log in" handleClick={handleLogin} />;
+  return <Form title="log in" handleClick={handleLogin} />;
 };
 
 export default Login;

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import s from './Auth.module.css';
 
-const Form = ({ titleSing, handleClick, titleLogin, handleLogin }) => {
+const Form = ({ title, handleClick }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -34,13 +34,7 @@ const Form = ({ titleSing, handleClick, titleLogin, handleLogin }) => {
           onClick={() => handleClick(email, password)}
           className={s.button}
         >
-          {titleSing}
-        </button>
-        <button
-          onClick={() => handleLogin(email, password)}
-          className={s.button}
-        >
-          {titleLogin}
+          {title}
         </button>
       </div>
     </div>

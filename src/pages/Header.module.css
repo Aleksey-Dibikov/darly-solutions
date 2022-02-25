@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_button {
+  min-width: 125px;
+  padding: 15px;
+  background-color: #f5f6fb;
+  border-radius: 16px;
+  border: none;
+  color: #52555f;
+  font-weight: 700;
+  filter: drop-shadow(1px 3px 5px rgba(82, 85, 95, 0.15));
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.nav_button:hover {
+  background-color: #ff751d;
+  color: #fff;
+  filter: drop-shadow(1px 3px 5px rgba(255, 107, 8, 0.35));
+  transition: 0.5s linear;
+}

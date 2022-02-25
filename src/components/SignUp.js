@@ -25,7 +25,7 @@ const SignUp = () => {
       .catch(console.error);
   };
 
-  return <Form titleSing="register" handleClick={handleRegister} />;
+  return <Form title="register" handleClick={handleRegister} />;
 };
 
 export default SignUp;
